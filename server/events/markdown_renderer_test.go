@@ -256,24 +256,24 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -304,25 +304,25 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 :twisted_rightwards_arrows: Upstream was modified, a new merge was performed.
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -353,24 +353,24 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -432,24 +432,24 @@ policy set: policy1: requires: 1 approval(s), have: 0.
 policy set: policy2: passed.
 $$$
 * :heavy_check_mark: To **approve** this project, comment:
-  $$$shell
-  
-  $$$
+$$$shell
+
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -515,27 +515,27 @@ $$$
 policy set: policy1: requires: 1 approval(s), have: 0.
 $$$
 * :heavy_check_mark: To **approve** this project, comment:
-  $$$shell
-  
-  $$$
+$$$shell
+
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 $$$
 policy set: policy1: 2 tests, 1 passed, 0 warnings, 1 failure, 0 exceptions
 $$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -566,9 +566,9 @@ $$$
 :put_litter_in_its_place: A plan file was discarded. Re-plan would be required before applying.
 
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 `,
 		},
 		{
@@ -599,9 +599,9 @@ $$$
 :put_litter_in_its_place: A plan file was discarded. Re-plan would be required before applying.
 
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 `,
 		},
 		{
@@ -694,14 +694,14 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. project: $projectname$ dir: $path2$ workspace: $workspace$
@@ -710,14 +710,14 @@ terraform-output2
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path2 -w workspace
-  $$$
+$$$shell
+atlantis apply -d path2 -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url2)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path2 -w workspace
-  $$$
+$$$shell
+atlantis plan -d path2 -w workspace
+$$$
 
 ---
 ### Plan Summary
@@ -725,13 +725,13 @@ $$$
 2 projects, 2 with changes, 0 with no changes, 0 failed
 
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -792,14 +792,14 @@ $$$
 
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. project: $projectname$ dir: $path2$ workspace: $workspace$
@@ -810,24 +810,24 @@ $$$
 
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path2 -w workspace
-  $$$
+$$$shell
+atlantis apply -d path2 -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url2)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path2 -w workspace
-  $$$
+$$$shell
+atlantis plan -d path2 -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -967,14 +967,14 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. dir: $path2$ workspace: $workspace$
@@ -993,13 +993,13 @@ $$$
 3 projects, 1 with changes, 0 with no changes, 2 failed
 
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -1069,14 +1069,14 @@ $$$
 
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. dir: $path2$ workspace: $workspace$
@@ -1092,14 +1092,14 @@ $$$
 policy set: policy1: requires: 1 approval(s), have: 0.
 $$$
 * :heavy_check_mark: To **approve** this project, comment:
-  $$$shell
-  
-  $$$
+$$$shell
+
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 3. project: $projectname$ dir: $path3$ workspace: $workspace$
@@ -1110,17 +1110,17 @@ $$$
 
 ---
 * :heavy_check_mark: To **approve** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis approve_policies
-  $$$
+$$$shell
+atlantis approve_policies
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan
-  $$$
+$$$shell
+atlantis plan
+$$$
 `,
 		},
 		{
@@ -1185,24 +1185,24 @@ $$$
 
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -1275,24 +1275,24 @@ policy set: policy1: approved.
 policy set: policy2: requires: 1 approval(s), have: 0.
 $$$
 * :heavy_check_mark: To **approve** this project, comment:
-  $$$shell
-  atlantis approve_policies -d path -w workspace
-  $$$
+$$$shell
+atlantis approve_policies -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -1354,24 +1354,24 @@ $$$
 policy set: policy1: requires: 1 approval(s), have: 0.
 $$$
 * :heavy_check_mark: To **approve** this project, comment:
-  $$$shell
-  atlantis approve_policies -d path -w workspace
-  $$$
+$$$shell
+atlantis approve_policies -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -1609,24 +1609,24 @@ policy set: policy1: requires: 1 approval(s), have: 0.
 policy set: policy2: passed.
 $$$
 * :heavy_check_mark: To **approve** this project, comment:
-  $$$shell
-  
-  $$$
+$$$shell
+
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -1692,27 +1692,27 @@ $$$
 policy set: policy1: requires: 1 approval(s), have: 0.
 $$$
 * :heavy_check_mark: To **approve** this project, comment:
-  $$$shell
-  
-  $$$
+$$$shell
+
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 $$$
 policy set: policy1: 2 tests, 1 passed, 0 warnings, 1 failure, 0 exceptions
 $$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -1766,13 +1766,13 @@ Ran Policy Check for 2 projects:
 ---
 
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -1847,14 +1847,14 @@ $$$
 policy set: policy1: requires: 1 approval(s), have: 0.
 $$$
 * :heavy_check_mark: To **approve** this project, comment:
-  $$$shell
-  
-  $$$
+$$$shell
+
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 3. project: $projectname$ dir: $path3$ workspace: $workspace$
@@ -1865,17 +1865,17 @@ $$$
 
 ---
 * :heavy_check_mark: To **approve** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis approve_policies
-  $$$
+$$$shell
+atlantis approve_policies
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan
-  $$$
+$$$shell
+atlantis plan
+$$$
 `,
 		},
 	}
@@ -1966,14 +1966,14 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 `,
 		},
 		{
@@ -2003,14 +2003,14 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 `,
 		},
 		{
@@ -2057,14 +2057,14 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. project: $projectname$ dir: $path2$ workspace: $workspace$
@@ -2073,14 +2073,14 @@ terraform-output2
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path2 -w workspace
-  $$$
+$$$shell
+atlantis apply -d path2 -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url2)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path2 -w workspace
-  $$$
+$$$shell
+atlantis plan -d path2 -w workspace
+$$$
 
 ---
 ### Plan Summary
@@ -2175,9 +2175,9 @@ $$$
 
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 `,
 		},
 		{
@@ -2208,9 +2208,9 @@ $$$
 
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 `,
 		},
 		{
@@ -2258,9 +2258,9 @@ $$$
 
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. project: $projectname$ dir: $path2$ workspace: $workspace$
@@ -2270,9 +2270,9 @@ $$$
 
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url2)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path2 -w workspace
-  $$$
+$$$shell
+atlantis plan -d path2 -w workspace
+$$$
 
 ---
 ### Plan Summary
@@ -2403,14 +2403,14 @@ $$$
 
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To re-run policies **plan** this project again by commenting:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 `
 
 	Equals(t, normalize(exp), normalize(rendered))
@@ -2753,25 +2753,25 @@ $$$
 </details>
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  applycmd
-  $$$
+$$$shell
+applycmd
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  replancmd
-  $$$
+$$$shell
+replancmd
+$$$
 No changes. Infrastructure is up-to-date.
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this ` + c.VcsRequestType + `, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this ` + c.VcsRequestType + `, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `
 						} else {
 							exp = `
@@ -2782,24 +2782,24 @@ $$$diff
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  applycmd
-  $$$
+$$$shell
+applycmd
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  replancmd
-  $$$
+$$$shell
+replancmd
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this ` + c.VcsRequestType + `, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this ` + c.VcsRequestType + `, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `
 						}
 					case command.Apply:
@@ -2992,14 +2992,14 @@ $$$
 </details>
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  staging-apply-cmd
-  $$$
+$$$shell
+staging-apply-cmd
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](staging-lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  staging-replan-cmd
-  $$$
+$$$shell
+staging-replan-cmd
+$$$
 Plan: 1 to add, 0 to change, 0 to destroy.
 
 ---
@@ -3012,14 +3012,14 @@ $$$
 </details>
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  production-apply-cmd
-  $$$
+$$$shell
+production-apply-cmd
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](production-lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  production-replan-cmd
-  $$$
+$$$shell
+production-replan-cmd
+$$$
 Plan: 1 to add, 0 to change, 0 to destroy.
 
 ---
@@ -3028,13 +3028,13 @@ Plan: 1 to add, 0 to change, 0 to destroy.
 2 projects, 2 with changes, 0 with no changes, 0 failed
 
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `
 	Equals(t, normalize(exp), normalize(rendered))
 }
@@ -3235,23 +3235,23 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -3281,24 +3281,24 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 :twisted_rightwards_arrows: Upstream was modified, a new merge was performed.
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -3328,23 +3328,23 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -3434,13 +3434,13 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. project: $projectname$ dir: $path2$ workspace: $workspace$
@@ -3449,13 +3449,13 @@ terraform-output2
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path2 -w workspace
-  $$$
+$$$shell
+atlantis apply -d path2 -w workspace
+$$$
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path2 -w workspace
-  $$$
+$$$shell
+atlantis plan -d path2 -w workspace
+$$$
 
 ---
 ### Plan Summary
@@ -3463,13 +3463,13 @@ $$$
 2 projects, 2 with changes, 0 with no changes, 0 failed
 
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -3605,13 +3605,13 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. dir: $path2$ workspace: $workspace$
@@ -3630,13 +3630,13 @@ $$$
 3 projects, 1 with changes, 0 with no changes, 2 failed
 
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -3857,13 +3857,13 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 2. project: $projectname$ dir: $path2$ workspace: $workspace$
@@ -3872,13 +3872,13 @@ terraform-output2
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path2 -w workspace
-  $$$
+$$$shell
+atlantis apply -d path2 -w workspace
+$$$
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path2 -w workspace
-  $$$
+$$$shell
+atlantis plan -d path2 -w workspace
+$$$
 
 ---
 ### Plan Summary
@@ -3886,13 +3886,13 @@ $$$
 2 projects, 2 with changes, 0 with no changes, 0 failed
 
 * :fast_forward: To **apply** all unapplied plans from this Merge Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Merge Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 	}
@@ -4350,9 +4350,9 @@ $$$
 
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 Plan: 1 to add, 2 to change, 1 to destroy.
 `,
 	},
@@ -4531,14 +4531,14 @@ terraform-output
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path -w workspace
-  $$$
+$$$shell
+atlantis apply -d path -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path -w workspace
-  $$$
+$$$shell
+atlantis plan -d path -w workspace
+$$$
 
 ---
 ### 3. project: $projectname2$ dir: $path3$ workspace: $workspace$
@@ -4547,14 +4547,14 @@ terraform-output3
 $$$
 
 * :arrow_forward: To **apply** this plan, comment:
-  $$$shell
-  atlantis apply -d path3 -w workspace
-  $$$
+$$$shell
+atlantis apply -d path3 -w workspace
+$$$
 * :put_litter_in_its_place: To **delete** this plan and lock, click [here](lock-url3)
 * :repeat: To **plan** this project again, comment:
-  $$$shell
-  atlantis plan -d path3 -w workspace
-  $$$
+$$$shell
+atlantis plan -d path3 -w workspace
+$$$
 
 ---
 ### Plan Summary
@@ -4562,13 +4562,13 @@ $$$
 3 projects, 2 with changes, 1 with no changes, 0 failed
 
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 		{
@@ -4629,13 +4629,13 @@ Ran Plan for 3 projects:
 3 projects, 0 with changes, 3 with no changes, 0 failed
 
 * :fast_forward: To **apply** all unapplied plans from this Pull Request, comment:
-  $$$shell
-  atlantis apply
-  $$$
+$$$shell
+atlantis apply
+$$$
 * :put_litter_in_its_place: To **delete** all plans and locks from this Pull Request, comment:
-  $$$shell
-  atlantis unlock
-  $$$
+$$$shell
+atlantis unlock
+$$$
 `,
 		},
 	}
