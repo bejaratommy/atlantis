@@ -491,6 +491,7 @@ Each servers handle different repository config files.
 | policies   | Policies.                                             | none      | no       | List of policy sets to run and associated metadata                                    |
 | metrics    | Metrics.                                              | none      | no       | Map of metric configuration                                                           |
 | team_authz | [TeamAuthz](#teamauthz)                               | none      | no       | Configuration of team permission checking                                             |
+| external_stores | [ExternalStores](#externalstores)                | none      | no       | Configuration of external storage backends for plan file persistence. Requires the server to be started with [`--enable-external-stores`](server-configuration.md#--enable-external-stores). |
 
 ::: tip A Note On Defaults
 
@@ -651,3 +652,44 @@ mode: on_apply
 |---------|----------|---------|----------|---------------------------------------------|
 | command | string   | none    | yes      | full path to external authorization command |
 | args    | []string | none    | no       | optional arguments to pass to `command`     |
+
+### ExternalStores
+
+`external_stores` configures external storage backends for plan files. It only takes effect
+when the server is started with [`--enable-external-stores`](server-configuration.md#--enable-external-stores);
+otherwise Atlantis falls back to local plan storage.
+
+```yaml
+external_stores:
+  plan_store:
+    type: s3
+    s3:
+      bucket: my-atlantis-plans
+      region: us-east-1
+      prefix: plans
+      endpoint: ""
+      force_path_style: false
+      profile: ""
+```
+
+| Key        | Type                        | Default | Required | Description                                                    |
+|------------|------------------------------|---------|----------|------------------------------------------------------------------|
+| plan_store | [PlanStoreConfig](#planstoreconfig) | none | no    | Configuration of the plan file storage backend.                  |
+
+#### PlanStoreConfig
+
+| Key  | Type                    | Default | Required | Description                                                          |
+|------|-------------------------|---------|----------|------------------------------------------------------------------------|
+| type | string                  | none    | no       | The plan store backend to use. Only `s3` is currently supported.       |
+| s3   | [S3StoreConfig](#s3storeconfig) | none | no, unless `type` is `s3` | S3-specific configuration, required when `type` is `s3`. |
+
+#### S3StoreConfig
+
+| Key               | Type   | Default | Required | Description                                                                                  |
+|-------------------|--------|---------|----------|------------------------------------------------------------------------------------------------|
+| bucket            | string | none    | yes      | Name of the S3 bucket to store plan files in.                                                  |
+| region            | string | none    | yes      | AWS region the bucket is in, e.g. `us-east-1`.                                                 |
+| prefix            | string | none    | no       | Key prefix applied to all stored plan objects.                                                 |
+| endpoint          | string | none    | no       | Custom S3-compatible endpoint URL, e.g. for MinIO or other S3-compatible object storage.        |
+| force_path_style  | bool   | false   | no       | Whether to use path-style S3 URLs instead of virtual-hosted-style. Useful for MinIO etc.        |
+| profile           | string | none    | no       | Named AWS shared config profile to use. If unset, the standard AWS SDK default credential chain (environment variables, `~/.aws/credentials`, instance profile, etc.) is used. |
